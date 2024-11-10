@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Interective Resume</title>
+    <link rel="stylesheet" href="../css/static_resume.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <header class="header">
+    <div class="heading_cont"><h1>Resume Generator</h1></div>
+    <div class="logo_cont">
+      <img src="../assets/img/logo.png" alt="logo" class="logo" />
+    </div>
+  </header>
+  <body>
+    <!-- Here I making my CV Editable by adding attribute "contenteditable" -->
+
+    <main id="outer_cont" class="outer_cont" contenteditable="true">
+      <div class="bg1"></div>
+      <div class="bg2"></div>
+      <div class="bg3"></div>
+      <div class="social_links">
+        <a href="https://www.linkedin.com/" target="_blank" id="linkedin_"
+          >Linkedin</a
+        >
+
+        <a href="https://github.com/login" target="_blank" id="github_"
+          >GitHub</a
+        >
+
+        <a href="https://twitter.com/login" target="_blank" id="twitter_"
+          >Twitter</a
+        >
+      </div>
+      <address class="my_address">
+        <p id="adress_">Orangi Town ,Karachi</p>
+        <p id="mail_">hunainnaeemanwar@gmail.com</p>
+        <p id="phone_">+92123456789</p>
+      </address>
+      <div class="my_name"><h1 id="name_">hunain</h1></div>
+
+      <section class="sec_1">
+        <div class="my_skills_head_cont"><h2>skills</h2></div>
+        <div class="my_skill_cont">
+          <ul id="skills">
+            <li id="skill1_">figma</li>
+            <li id="skill2_">sketch</li>
+            <li id="skill3_">photoshop</li>
+            <li id="skill4_">illustrator</li>
+            <li id="skill5_">premier pro</li>
+            <li id="skill6_">after effects</li>
+          </ul>
+        </div>
+        <div class="my_lang_head_cont"><h4>languages</h4></div>
+        <div class="my_lang_cont">
+          <ul class="languages">
+            <li id="lang1_">english</li>
+            <li id="lang2_">urdu</li>
+            <li id="lang3_">French</li>
+            <li id="lang4_">French</li>
+            <li id="lang5_">French</li>
+          </ul>
+        </div>
+      </section>
+      <section class="sec_2">
+        <div class="personal_info_head_cont">
+          <h3>personal information</h3>
+        </div>
+        <div class="personal_info_cont">
+          <p id="userinfo_">
+            UX/UI specialist focused on designing clean and functional projects
+            across all platforms and devices in response to specific briefs and
+            problems, while always maintaining a unique look and feel.
+          </p>
+        </div>
+        <div class="employment_his_head_cont">
+          <h4>Employment history</h4>
+        </div>
+        <div class="sub_head_cont1">
+          <h5 id="desig1_">product designer,uber</h5>
+        </div>
+        <div class="emp_his_cont1">
+          <pre id="exp1_">
+Designed safety-focused experiences for Riders and Drivers
+Physical space problem solving and it’s interaction with the digital
+Navigated organization to achieve operational improvements</pre
+          >
+
+          <div class="sub_head_cont2">
+            <h5 id="desig2_">product designer,IFTTT</h5>
+          </div>
+          <div class="emp_his_cont2">
+            <pre id="exp2_">
+Product and system design for a complex product
+Designed both consumer and developer products for IFTTT
+Responsible for maintaining design across iOS, Android, and web
+              </pre
+            >
+          </div>
+          <div class="sub_head_cont3">
+            <h5 id="desig3_">Product Designer, Facebook</h5>
+          </div>
+          <div class="emp_his_cont3">
+            <pre id="exp3_">
+Designer and prototyped internal tools.
+Worked with Privacy team to build assets and features.
+Redesigned Newsfeed curation experience for mobile.</pre
+            >
+          </div>
+          <div class="sub_head_cont4">
+            <h5 id="desig4_">UX/UI Design Intern, Google Maps</h5>
+          </div>
+          <div class="emp_his_cont4">
+            <pre id="exp4_">
+Contributed to Maps on iOS wireframe ans user experience
+Designed and prototyped onboarding experience
+Asset and feature design for Maps on Android</pre
+            >
+          </div>
+          <div class="my_edu_head_cont"><h4>education</h4></div>
+          <div class="my_edu_cont">
+            <ul>
+              <li id="school_">Govt boys secondary school</li>
+              <li id="college_">jinnah govt college</li>
+              <li id="university_">bahria university</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="print">
+      <button onclick="printDiv()" id="prntBtn">
+        <i class="fa-solid fa-print"></i>
+      </button>
+      <button id="edit">
+        <i class="fa-solid fa-pen-to-square"></i>
+      </button>
+      <button id="btn"><i class="fa-solid fa-eye-slash"></i></button>
+    </div>
+
+    <footer id="foot" class="foot">
+      <div class="copyright">
+        <pre><span>&copy; </span> 2024 Copyright | Hunain's Resume.com</pre>
+      </div>
+      <div class="adress">
+        <p>+92312-4567889</p>
+        <a href="hunainnaeem@gmail.com">@Hunain Naeem Anwar</a>
+        <p>Orangi town , Karachi</p>
+      </div>
+      <div class="icons">
+        <i class="fa-solid fa-phone"></i><i class="fa-solid fa-envelope"></i
+        ><i class="fa-solid fa-house"></i>
+      </div>
+      <div class="abt_comp">
+        <p>
+          <b> Powered by Hunain</b><br />
+          <br />
+          Create stunning resumes in minutes. Easy-to-use templates. No design
+          skills required.Create Professional Resumes in Minutes.Your dream job,
+          one click away. Effortless resume creation. Easy to Use. No Design
+          Skills Required. Build a Better Resume. Try My Free Resume Builder
+          Now.
+        </p>
+      </div>
+      <div class="pic">
+        <img src="../assets/img/footer_pic.jpg" alt="company logo" />
+      </div>
+      <div class="foot_links">
+        <div class="links_Divs">
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <div class="links_Divs">
+          <a href="https://www.instagram.com">
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <div class="links_Divs">
+          <a href="https://www.twitter.com/"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+        </div>
+        <div class="links_Divs">
+          <a href="https://www.whatsapp.com/"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="../dist/static_resume.js"></script>
+  </body>
+</html>

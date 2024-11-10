@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+    <link rel="stylesheet" href="../css/form_page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="heading_cont"><h1>Resume Generator</h1></div>
+      <div class="logo_cont">
+        <img src="../assets/img/logo.png" alt="logo" class="logo" />
+      </div>
+    </header>
+    <main>
+      <form id="_Form">
+        <div class="divs div_1">
+          <h2>Add Personal data</h2>
+          <input type="text" id="_Name" placeholder="  Your Name" requiredd />
+          <input type="text" id="_School" placeholder="  School" required />
+          <input type="text" id="_College" placeholder="  College" />
+          <input type="text" id="_University" placeholder="  University" />
+
+          <textarea
+            required
+            placeholder="   
+            
+             About Yourself "
+            id="_UserInfo"
+            cols="40"
+            rows="5"
+          ></textarea>
+        </div>
+        <div class="divs div_2">
+          <h2>Add Contact/Adress</h2>
+          <input type="text" id="_Mail" placeholder="  Your Email" required />
+          <input
+            type="text"
+            id="_Adress"
+            placeholder="  Your Address"
+            required
+            d
+          />
+          <input type="text" id="_Phone" placeholder="  Your Phone " required />
+          <input type="text" id="_Github" placeholder="  GitHub link" />
+          <input type="text" id="_Twitter" placeholder="  Twitter link" />
+          <input
+            type="text"
+            name="_Linkedin"
+            id="_Linkedin"
+            placeholder="  Linkedin link"
+          />
+        </div>
+        <div class="divs div_3">
+          <h2>Add Skills</h2>
+          <input type="text" id="_Skill1" placeholder="  Skill_1" required />
+          <input type="text" id="_Skill2" placeholder="  Skill_2" />
+          <input type="text" id="_Skill3" placeholder="  Skill_3" />
+          <input type="text" id="_Skill4" placeholder="  Skill_4" />
+          <input type="text" id="_Skill5" placeholder="  Skill_5" />
+          <input type="text" id="_Skill6" placeholder="  Skill_6" />
+        </div>
+        <div class="divs div_4">
+          <h2>Add Languages</h2>
+          <input type="text" id="_Lang1" placeholder="  Language_1" required />
+          <input type="text" id="_Lang2" placeholder="  Language_2" required />
+          <input type="text" id="_Lang3" placeholder="  Language_3" />
+          <input type="text" id="_Lang4" placeholder="  Language_4" />
+          <input type="text" id="_Lang5" placeholder="  Language_5" />
+        </div>
+
+        <div class="divs div_5">
+          <h2>Add Experience</h2>
+          <div class="exp">
+            <div class="experience exp_1">
+              <textarea
+                required
+                id="_Exp1"
+                rows="3"
+                cols="80"
+                placeholder=" Try to write the next sentence on second line after finishing one 
+                              scentence."
+              ></textarea>
+            </div>
+            <div class="experience exp_2">
+              <textarea
+                id="_Exp2"
+                rows="3"
+                cols="80"
+                placeholder="
+                             Experience_2"
+              ></textarea>
+            </div>
+            <div class="experience exp_3">
+              <textarea
+                id="_Exp3"
+                rows="3"
+                cols="80"
+                placeholder="
+                             Experience_3"
+              ></textarea>
+            </div>
+            <div class="experience exp_4">
+              <textarea
+                id="_Exp4"
+                rows="3"
+                cols="80"
+                placeholder="
+                             Experience_4"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="designation_div">
+          <div class="desig desig_1">
+            <input
+              required
+              type="text"
+              id="_Desig1"
+              placeholder="Eg/ Developer,Google"
+            />
+          </div>
+          <div class="desig desig_2">
+            <input type="text" id="_Desig2" placeholder="  Designation_2" />
+          </div>
+          <div class="desig desig_3">
+            <input type="text" id="_Desig3" placeholder="  Designation_3" />
+          </div>
+          <div class="desig desig_4">
+            <input type="text" id="_Desig4" placeholder="  Designation_4" />
+          </div>
+        </div>
+        <div class="btn_div">
+          <input type="submit" class="btN" />
+        </div>
+        <div class="btn-div">
+          <button type="reset" id="res_btn">Reset Form</button>
+        </div>
+      </form>
+    </main>
+    <footer class="foot">
+      <div class="copyright">
+        <pre><span>&copy; </span> 2024 Copyright | Hunain's Resume.com</pre>
+      </div>
+      <div class="adress">
+        <p>+92312-4567889</p>
+        <a href="https://mail.google.com/mail/">@Hunain Naeem Anwar</a>
+        <p>Orangi town , Karachi</p>
+      </div>
+      <div class="icons">
+        <i class="fa-solid fa-phone"></i><i class="fa-solid fa-envelope"></i
+        ><i class="fa-solid fa-house"></i>
+      </div>
+      <div class="abt_comp">
+        <p>
+          <b> Powered by Hunain</b><br />
+          <br />
+          Create stunning resumes in minutes. Easy-to-use templates. No design
+          skills required.Create Professional Resumes in Minutes.Your dream job,
+          one click away. Effortless resume creation. Easy to Use. No Design
+          Skills Required. Build a Better Resume. Try My Free Resume Builder
+          Now.
+        </p>
+      </div>
+      <div class="pic">
+        <img src="../assets/img/footer_pic.jpg" alt="company logo" />
+      </div>
+      <div class="foot_links">
+        <div class="linkDiv">
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <div class="linkDiv">
+          <a href="https://www.instagram.com">
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <div class="linkDiv">
+          <a href="https://www.twitter.com/"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+        </div>
+        <div class="linkDiv">
+          <a href="https://www.whatsapp.com/"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="../dist/form_page.js"></script>
+  </body>
+</html>
