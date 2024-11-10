@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("/assests/body_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.outer_cont {
+  width: 595px;
+  height: 842px;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  top: 50px;
+  z-index: 0;
+}
+.bg1 {
+  width: 234px;
+  height: 450px;
+  background-color: #8ae9fb;
+  border-radius: 110px;
+  position: absolute;
+  top: 400px;
+  left: 233px;
+  transform: rotate(53.17deg);
+  z-index: -3;
+}
+.bg2 {
+  width: 220px;
+  height: 420px;
+  background-color: #32ef96;
+  border-radius: 110px;
+  position: absolute;
+  left: 285px;
+  top: 168px;
+  z-index: -2;
+}
+.bg3 {
+  width: 220px;
+  height: 470px;
+  background-color: #ff90c3;
+  border-radius: 110px;
+  transform: rotate(17.98deg);
+  position: absolute;
+  left: 80px;
+  top: 70px;
+  z-index: -1;
+}
+.social_links {
+  width: 140px;
+  height: 20px;
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social_links > a {
+  color: black;
+  text-decoration: none;
+  font-size: 8px;
+  opacity: 1;
+}
+.my_address {
+  width: 125px;
+  height: 40px;
+  position: absolute;
+  top: 45px;
+  left: 456px;
+}
+.my_address > p,
+a {
+  font-size: 8px;
+  color: black;
+  line-height: 3px;
+  text-decoration: none;
+  padding-top: 7px;
+  text-align: end;
+  opacity: 60%;
+}
+
+.my_name {
+  width: 320px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: absolute;
+  top: 105px;
+  left: 45px;
+}
+.my_name > h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.sec_1 {
+  width: 170px;
+  height: 400px;
+  position: relative;
+  top: 180px;
+  left: 45px;
+}
+
+.my_skills_head_cont {
+  width: 47px;
+  height: 17px;
+  position: absolute;
+  top: 10px;
+}
+.my_skills_head_cont > h2 {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.my_skill_cont {
+  width: 130px;
+  height: 180px;
+  position: absolute;
+  top: 35px;
+}
+#skills {
+  font-size: 10px;
+  text-transform: capitalize;
+  list-style: none;
+  line-height: 24px;
+  display: block;
+}
+.my_lang_head_cont {
+  width: 86px;
+  height: 17px;
+  position: absolute;
+  top: 230px;
+}
+.my_lang_head_cont > h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+}
+.my_lang_cont {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 255px;
+}
+
+.languages {
+  list-style: none;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-size: 10px;
+  display: block;
+}
+.sec_2 {
+  width: 350px;
+  height: 575px;
+  position: absolute;
+  left: 221px;
+  top: 180px;
+}
+.personal_info_head_cont {
+  width: 180px;
+  height: 17px;
+  position: absolute;
+  top: 10px;
+}
+.personal_info_head_cont > h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.personal_info_cont {
+  width: 345px;
+  height: 52px;
+  position: absolute;
+  top: 35px;
+}
+
+.personal_info_cont > p {
+  font-size: 10px;
+  line-height: 13px;
+  text-transform: capitalize;
+  text-align: left;
+}
+.employment_his_head_cont {
+  width: 163px;
+  height: 17px;
+  position: absolute;
+  top: 120px;
+}
+.employment_his_head_cont > h4 {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.sub_head_cont1 {
+  width: 170px;
+  height: 12px;
+  position: absolute;
+  top: 150px;
+}
+.sub_head_cont1 > h5 {
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.emp_his_cont1 {
+  width: 345px;
+  height: 39px;
+  position: absolute;
+  top: 170px;
+}
+.emp_his_cont1 > ul > li {
+  font-size: 10px;
+  text-transform: capitalize;
+}
+
+.sub_head_cont2 {
+  width: 170px;
+  height: 12px;
+  position: absolute;
+  top: 48px;
+}
+.sub_head_cont2 > h5 {
+  font-size: 10px;
+  font-weight: 400;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.emp_his_cont2 {
+  width: 345px;
+  height: 39px;
+  position: absolute;
+  top: 68px;
+}
+.emp_his_cont2 > ul > li {
+  font-size: 10px;
+  text-transform: capitalize;
+}
+
+.sub_head_cont3 {
+  width: 170px;
+  height: 12px;
+  position: absolute;
+  top: 116px;
+}
+.sub_head_cont3 > h5 {
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.emp_his_cont3 {
+  width: 345px;
+  height: 39px;
+  position: absolute;
+  top: 137px;
+}
+.emp_his_cont3 > ul > li {
+  font-size: 10px;
+  text-transform: capitalize;
+}
+
+.sub_head_cont4 {
+  width: 170px;
+  height: 12px;
+  position: absolute;
+  top: 185px;
+}
+.sub_head_cont4 > h5 {
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.emp_his_cont4 {
+  width: 345px;
+  height: 39px;
+  position: absolute;
+  top: 205px;
+}
+.emp_his_cont4 > ul > li {
+  font-size: 10px;
+  text-transform: capitalize;
+}
+.my_edu_head_cont {
+  width: 82px;
+  height: 17px;
+  position: absolute;
+  top: 280px;
+}
+.my_edu_head_cont > h4 {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.my_edu_cont {
+  width: 323px;
+  height: 90px;
+  position: absolute;
+  top: 305px;
+}
+.my_edu_cont > ul > li {
+  font-size: 10px;
+  text-transform: capitalize;
+}
+#btn {
+  width: 140px;
+  height: 30px;
+  position: absolute;
+  left: 45px;
+  top: 625px;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: smaller;
+  background: transparent;
+  border: black 1px solid;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: (ease-in);
+}
+#btn:hover {
+  background: linear-gradient(to left, #ff90c3, #32ef96, #8ae9fb);
+
+  font-size: x-small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
